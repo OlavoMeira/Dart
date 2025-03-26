@@ -31,5 +31,22 @@ void main(List<String> arguments) {
 
 // if encadeado abaixo.
 
+  if (media > 7){
+    print("O aluno passou com a nota: $media");
+  } else if ((media >= 5) && (media < 7)) {
+        print("O aluno esta de recuperação com a nota: $media");
+      } else {
+        print("O aluno reprovou com a nota: $media");
+      }   
+  }
 
-}
+// if ternario  ele substitui todo o codigo cmentado abaixo em uma linha.
+
+var resultado = (prova1 >= 7) ? "O aluno passou" : "O aluno reprovou";
+//if (prova1 >= 7){
+  //  resultado = "O aluno passou";
+   // } else {
+    // }
+     print(resultado);
+
+
